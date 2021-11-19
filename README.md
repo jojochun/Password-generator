@@ -5,3 +5,17 @@
 The purpose of this project is to create an application that will generate random passwords based on criteria selected
 by the user. The user selects the length of the password and the character types to be included.
 The application was created using dynamically updated HTML, CSS, and JavaScript and runs in the browser.
+
+## BUILT WITH
+
+HTML
+
+CSS
+
+JavaScript
+
+## WEBSITE
+
+## CONTRIBUTION
+
+Made with by Joanne Chun
