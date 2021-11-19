@@ -32,10 +32,10 @@ if (!upperCase && !lowerCase && !numbers && !symbols) {
 }
 
   //define variables
-  var upperText = "ABCDE"
-  var lowerText = "abc"
+  var upperText = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  var lowerText = "abcdefghijklmnopqrstuvwxyz"
 var numberText = "1234567890"
-var symbolText ="*&^%$"
+var symbolText ="?!@#$%^&*()_+{}|:;=-[]~`',."
 
 var possibleText = "";
 if (upperCase) {
