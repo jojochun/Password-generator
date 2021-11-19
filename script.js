@@ -23,7 +23,7 @@ if ((length < 8)  || (length > 128)) {
 return generatePassword();
 }
  if ((length >=8) || (length <= 128)) {
-// do what??  store for later??
+
  }
 // b. at least one criteria needs to be included (out of 4)
 if (!upperCase && !lowerCase && !numbers && !symbols) {
@@ -51,11 +51,14 @@ if (symbols) {
   possibleText += symbolText;
 }
 console.log(possibleText)
+
+
 // 3. generate password
 var chosenPassword = "" 
 
 
-//using Math.floor and Math.random to get password from concatenated array
+//using Math.floor and Math.random to generate random password: looping thru i < length to get characters from possibleText array
+
 for (var i = 0; i < length; i++) {
   var randomText = possibleText[Math.floor(Math.random() * possibleText.length)]
 chosenPassword += randomText;
