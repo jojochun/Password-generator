@@ -54,13 +54,12 @@ console.log(possibleText)
 // 3. generate password
 var chosenPassword = "" 
 
+
+//using Math.floor and Math.random to get password from concatenated array
 for (var i = 0; i < length; i++) {
   var randomText = possibleText[Math.floor(Math.random() * possibleText.length)]
 chosenPassword += randomText;
 }
-
-
-
 
 
 // 4. display password
