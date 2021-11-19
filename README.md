@@ -16,6 +16,8 @@ JavaScript
 
 ## WEBSITE
 
+https://jojochun.github.io/Password-generator/
+
 ## CONTRIBUTION
 
-Made with by Joanne Chun
+Made with ❤️ by Joanne Chun
